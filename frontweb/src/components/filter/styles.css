@@ -1,0 +1,57 @@
+.store-filter-container {
+  height: 130px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 20px;
+  background: var(--secondary-color);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.store-filter-gender-container {
+  flex: 1;
+  width: 260px;
+  padding: 0;
+  border: none;
+}
+
+.store-filter-select__control input {
+  height: 30px;
+}
+
+.store-filter-select__control {
+  background-color: var(--secondary-color) !important /*cor do input*/;
+}
+
+.store-filter-select__menu {
+  background-color: var(--secondary-color) !important; /*cor de fundo do input quando clicado*/
+  color: #6c6c6c !important; /* cor das palavras do input quando clicado*/
+}
+
+.store-filter-select__menu input:focus {
+  background: #6c6c6c !important;
+}
+
+.store-filter-select__placeholder {
+  color: #6c6c6c !important; /* cor do placeholder quando não ter nenhum gênero selecionado*/
+}
+
+.store-filter-select__single-value {
+  color: #6c6c6c !important/* cor do placeholder quando tiver gênero selecionado*/;
+}
+
+.store-filter-select__indicator-separator {
+  display: none; /* separador entre o "x" e a seta de seleção do input*/
+}
+
+.store-filter-select__dropdown-indicator {
+  color: #6c6c6c !important; /* cor da seta quando clicado */
+}
+
+.store-filter-select__clear-indicator {
+  color: #6c6c6c !important; /* cor do x de limpar*/
+}

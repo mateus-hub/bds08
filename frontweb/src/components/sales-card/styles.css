@@ -1,0 +1,47 @@
+.sales-container {
+  height: 100%;
+  width: 100%;
+  padding: 25px 15px 30px 20px;
+}
+
+.sales-data {
+  padding: 25px 15px 50px 10px;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sales-quantity-container {
+  width: 235px;
+  height: 41px;
+
+  margin-right: 50px;
+}
+
+.sales-quantity {
+  color: #334ac3;
+  font-size: 35px;
+}
+
+.sales-quantity-label {
+  color: #8d8d8d;
+  font-size: 18px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.pie-chart-card {
+  height: 165px;
+  width: 165px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-legend.apexcharts-align-center {
+  flex-direction: column;
+  align-items: center;
+}

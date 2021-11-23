@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+  /*abaixo de 1200 vai aplicar isso */
+  .app-container .sales-overview-container {
+    flex-direction: column;
+  }
+
+  .sales-overview-container .pie-chart-card {
+    width: 100%;
+  }
+
+  .app-container .sales-container {
+    height: 540px;
+  }
+
+  .sales-container .sales-data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sales-data .sales-quantity-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .sales-data .pie-chart-card {
+    width: 100%;
+  }
+
+  .sales-overview-container .sales-container {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    /* abaixo de 992 vai aplicar isso */
+    #root .app-container {
+      padding: 0 10px;
+    }
+
+    .app-container .sales-overview-container {
+      display: flex;
+    }
+
+    .sales-container {
+      margin-bottom: 45px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    /* abaixo de 768 vai aplicar isso */
+    .store-filter-container.base-card {
+      flex-direction: row;
+    }
+
+    .store-filter-container .filter-input {
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    /* abaixo de 576 vai aplicar isso */
+    .sales-overview-container .sales-container {
+      flex-direction: column;
+    }
+
+    .sales-container .sales-data {
+      padding-right: 30px;
+      width: 100%;
+    }
+
+    .sales-quantity-container {
+      padding-right: 30px;
+    }
+  }
+}
